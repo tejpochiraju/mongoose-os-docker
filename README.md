@@ -11,6 +11,7 @@ running on Manjaro Linux x86_64
     docker build -t mongoose:minideb .
     
     # To run in browser UI mode:
+    # This uses the CMD line from Dockerfile
     docker run -d --rm --device=/dev/ttyUSB0 -p 1992:1992 -v /path/to/code:/root/code mongoose:minideb
     xdg-open http://localhost:1992 # or just open localhost:1992 in your browser
 
