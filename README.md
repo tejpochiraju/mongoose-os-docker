@@ -21,3 +21,4 @@ running on Manjaro Linux x86_64
 
 # Known Issues
 - The serial port *might* switch if you disconnect and reconnect the development board on the host. In this case you will have to exit the container and restart it with the right device binding.
+- Known issues with Kalam32 board from Protocentral - `mos config-get` fails - but this could be an issue with the FTDI
